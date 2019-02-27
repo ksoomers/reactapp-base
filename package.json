@@ -1,0 +1,40 @@
+{
+  "name": "reactapp-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "dotenv": "^6.2.0",
+    "dotenv-webpack": "^1.7.0",
+    "eslint": "^5.14.1",
+    "node-sass": "^4.11.0",
+    "npm-install-webpack-plugin": "^4.0.5",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1",
+    "webpack": "^4.29.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": "NODE_ENV=production webpack --config ./webpack.config.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksoomers/reactapp-base.git"
+  },
+  "keywords": [],
+  "author": "Kristof Soomers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksoomers/reactapp-base/issues"
+  },
+  "homepage": "https://github.com/ksoomers/reactapp-base#readme"
+}
