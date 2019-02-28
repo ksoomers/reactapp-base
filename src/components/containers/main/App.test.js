@@ -7,7 +7,7 @@ configure({ adapter: new Adapter() });
 
 
 describe('First React component test with Enzyme', () => {
-    it('renders without crashing', () => {
-        shallow(<App />);
-    });
+  it('renders without crashing', () => {
+    shallow(<App />);
+  });
 });
