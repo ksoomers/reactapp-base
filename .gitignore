@@ -1,1 +1,10 @@
 node_modules/
+.git/
+.idea/
+_mac/
+codestyles/
+colors.scheme.xml
+debugger.xml
+fin.xml
+ide.general.xml
+ui.inf.xml
