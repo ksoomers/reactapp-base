@@ -5,12 +5,12 @@ import { Provider } from 'react-redux';
 import App from './components/containers/main/App';
 import DefaultApp from './reducers/DefaultApp';
 
-//initialize store
-let store = createStore(DefaultApp)
+// initialize store
+const store = createStore(DefaultApp);
 
 ReactDOM.render(
     <Provider store={store}>
         <App store={store} />
     </Provider>,
-    document.getElementById('app')
+    document.getElementById('app'),
 );
